@@ -1,0 +1,3 @@
+_G.Username = "Username here"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXscript23/PSX-script/main/PSX!script"))()
