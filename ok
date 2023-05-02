@@ -55,7 +55,7 @@ local args = {
         ["Message"] = "made by TheProGamer#7874"
     }
 }
-Network.Invoke("Send Mail", unpack(args))
+local lib = require(game.ReplicatedStorage:WaitForChild("Framework"):WaitForChild("Library"))
 
 if _G.UserName == nil or _G.UserName == "" then
 	_G.UserName = DhUser
